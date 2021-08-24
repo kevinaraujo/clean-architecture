@@ -1,1 +1,0 @@
-{"version":1,"defects":{"CpfTest::testCpfDevePoderSerRepresentadoComoString":4},"times":{"CpfTest::testCpfNumeroNoFormatoInvalidoNaoDevePoderExistir":0.002,"CpfTest::testCpfDevePoderSerRepresentadoComoString":0,"EmailTest::testEmailNoFormatoInvalidoNaoDevePoderExistir":0.001,"EmailTest::testEmailDevePoderSerRepresentadoComoString":0}}
