@@ -3,5 +3,13 @@
     "psr-4": {
       "Kevin\\Architecture\\": "src/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Kevin\\Architecture\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "phpunit/phpunit": "^9.5"
   }
 }
