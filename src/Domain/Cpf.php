@@ -1,5 +1,5 @@
 <?php
-namespace Kevin\Architecture;
+namespace Kevin\Architecture\Domain;
 
 class Cpf 
 {

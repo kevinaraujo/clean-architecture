@@ -1,6 +1,6 @@
 <?php
 
-use Kevin\Architecture\Cpf;
+use Kevin\Architecture\Domain\Cpf;
 use PHPUnit\Framework\TestCase;
 
 class CpfTest extends TestCase

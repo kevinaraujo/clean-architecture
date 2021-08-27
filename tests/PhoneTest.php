@@ -1,6 +1,6 @@
 <?php
 
-use Kevin\Architecture\Phone;
+use Kevin\Architecture\Domain\Student\Phone;
 use PHPUnit\Framework\TestCase;
 
 class PhoneTest extends TestCase
