@@ -1,12 +1,12 @@
 <?php
-namespace Kevin\Architecture\Domain;
+namespace Kevin\Architecture\Domain\Student;
 
 class Email 
 {
   private string $address;
 
   public function __construct(string $address)
-  {
+  { 
     if (filter_var($address, FILTER_VALIDATE_EMAIL) === false) {
       throw new \InvalidArgumentException(
         'Invalid email.'

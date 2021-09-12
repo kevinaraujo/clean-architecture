@@ -1,6 +1,6 @@
 <?php
 
-use Kevin\Architecture\Domain\Email;
+use Kevin\Architecture\Domain\Student\Email;
 use PHPUnit\Framework\TestCase;
 
 class EmailTest extends TestCase

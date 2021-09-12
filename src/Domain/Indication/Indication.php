@@ -1,7 +1,7 @@
 <?php
 namespace Kevin\Architecture\Domain\Indication;
 
-use Kevin\Architecture\Student\Student;
+use Kevin\Architecture\Domain\Student\Student;
 
 class Indication 
 {

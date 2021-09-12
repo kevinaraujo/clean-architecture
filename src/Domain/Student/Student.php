@@ -2,7 +2,6 @@
 namespace Kevin\Architecture\Domain\Student;
 
 use Kevin\Architecture\Domain\Cpf;
-use Kevin\Architecture\Domain\Email;
 
 class Student 
 {
@@ -11,7 +10,7 @@ class Student
   private Email $email;
   private array $phones;
 
-  public static function withCpfNameAndEmail(string $cpf, string $email, string $name): self
+  public static function withCpfNameAndEmail(string $cpf, string $name, string $email): self
   {
     return new Student(
       (new Cpf($cpf)),
@@ -28,7 +27,7 @@ class Student
   }
 
   public function addPhones(string $ddd, string $number)
-  {
+  { 
     $this->phones[] = new Phone($ddd, $number);
     return $this;
   }

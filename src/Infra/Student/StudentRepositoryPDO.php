@@ -61,8 +61,8 @@ class StudentRepositoryPDO implements StudentRepository
 
     $student = Student::withCpfNameAndEmail(
       $firstLine['cpf'],
-      $firstLine['email'],
       $firstLine['name'],
+      $firstLine['email']
     );
 
     $phones = array_filter($studentData, function ($line) {
@@ -89,8 +89,8 @@ class StudentRepositoryPDO implements StudentRepository
       if (!array_key_exists($student['cpf'], $students)) {
         $students[$student['cpf']] = Student::withCpfNameAndEmail(
           $student['cpf'],
-          $student['name'],
-          $student['email']
+          $student['email'],
+          $student['name']
         );
       }
 
