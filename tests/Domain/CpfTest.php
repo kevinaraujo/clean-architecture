@@ -1,4 +1,5 @@
 <?php
+namespace Kevin\Architecture\Tests\Domain;
 
 use Kevin\Architecture\Domain\Cpf;
 use PHPUnit\Framework\TestCase;

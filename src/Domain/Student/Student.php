@@ -24,6 +24,7 @@ class Student
     $this->cpf = $cpf;
     $this->name = $name;
     $this->email = $email;
+    $this->phones = [];
   }
 
   public function addPhones(string $ddd, string $number)
